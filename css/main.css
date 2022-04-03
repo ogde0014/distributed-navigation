@@ -6,7 +6,9 @@ html {
   margin: 0;
 }
 
-*, *::before, *::after
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 
 body {
   margin: 0;
@@ -31,7 +33,7 @@ header img {
 }
 
 a:hover {
-  color: #fff
+  color: #fff;
 }
 
 header p {
@@ -39,7 +41,7 @@ header p {
 }
 
 nav ul {
-  font-size:1.125rem;
+  font-size: 1.125rem;
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -51,5 +53,5 @@ nav a {
   margin-right: 1rem;
   margin-left: 1rem;
   text-decoration: none;
-  color: #0074d9
+  color: #0074d9;
 }
