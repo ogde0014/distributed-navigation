@@ -18,3 +18,38 @@ header {
   align-items: center;
   background-color: #e2e2e2;
 }
+
+header h1 {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+header img {
+  max-height: 50px;
+  order: -1;
+  padding-left: 1rem;
+}
+
+a:hover {
+  color: #fff
+}
+
+header p {
+  font-size: 1.125rem;
+}
+
+nav ul {
+  font-size:1.125rem;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: auto;
+}
+
+nav a {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #0074d9
+}
